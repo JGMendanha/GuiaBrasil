@@ -1,0 +1,154 @@
+body{
+    color: green;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 2000px;
+    justify-content: space-evenly;
+    background-color: #edf5dc;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.containerCadastro{
+    width: 450px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c7f3be;
+    background-image: url("../img/logoGuia.jpg");
+    border-radius: 8px;
+}
+
+.row{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.formCadastro{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 400px;
+}
+
+.labelFormCadastro{
+    font-size: 30px;
+    background-color:  #f6f9f5;
+}
+
+.h1Cadastro{
+    font-size: 60px;
+}
+
+.botaoCadastro{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #aef0a1;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.botaoCadastro:hover {
+    background-color: green;
+    color: white;
+}
+
+.containerLogin{
+    width: 450px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #aef0a1;
+    border-radius: 8px;
+}
+
+.rowLogin{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.formLogin{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 400px;
+}
+
+.labelFormLogin{
+    font-size: 30px;
+}
+
+.h1Login{
+    font-size: 60px;
+}
+
+.botaoLogin{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #e0f5dc;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.botaoLogin:hover {
+    background-color: green;
+    color: white;
+}
+
+
+header{
+    display: flex; 
+    justify-content: space-around;
+}
+
+.logo{
+    width: 600px;
+    height: 240px;
+}
+
+.sucessoCadastro {
+    background-color: #4CAF50; 
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin: 50px auto;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.erroCadastro {
+    background-color: #ad3434; 
+    color: #fff; 
+    padding: 20px;
+    text-align: center;
+    margin: 50px auto;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+a{
+    text-decoration: none;
+    border: 1px solid green;
+}
+

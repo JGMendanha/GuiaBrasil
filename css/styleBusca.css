@@ -1,0 +1,81 @@
+body{
+    color: green;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 2000px;
+    justify-content: space-evenly;
+    background-color: #edf5dc;
+}
+
+#container{
+    max-width: 1500px;
+    background-color: rgb(231, 252, 231);
+}
+
+#container td{
+    max-width: 300px;
+    word-wrap: break-word;
+}
+
+.botaoVolta{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #e0f5dc;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 60px;
+}
+
+.botaoVolta:hover {
+    background-color: green;
+    color: white;
+}
+
+.cardBusca {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 800px;
+}
+.linha {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.label {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.info {
+    flex: 1;
+}
+
+.descricao {
+    max-width: 300px;
+    word-wrap: break-word;
+}
+
+.img_post{
+    display: flex;
+    flex-direction: column;
+}
